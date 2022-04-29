@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="1019.0">
+         <children>
+            <TextField fx:id="textFieldChar" layoutX="20.0" layoutY="559.0" prefHeight="77.0" prefWidth="104.0" text="a">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </TextField>
+            <Label fx:id="lblChar" layoutX="20.0" layoutY="527.0" prefHeight="32.0" prefWidth="104.0" text="Enter char" textAlignment="CENTER">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnChar" layoutX="46.0" layoutY="640.0" mnemonicParsing="false" onAction="#enteredChar" text="Button" />
+            <Label fx:id="charZero" layoutX="558.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Circle fx:id="circleHead" layoutX="298.0" layoutY="315.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line fx:id="body" endY="51.0" layoutX="298.0" layoutY="399.0" startY="-25.0" strokeWidth="10.0" />
+            <Line fx:id="lLeg" endX="-40.0" endY="50.0" layoutX="296.0" layoutY="477.0" startY="-25.0" strokeWidth="10.0" />
+            <Line fx:id="rLeg" endX="43.0" endY="49.0" layoutX="300.0" layoutY="478.0" startY="-25.0" strokeWidth="10.0" />
+            <Line fx:id="rArm" endX="69.0" endY="22.0" layoutX="300.0" layoutY="420.0" startY="-25.0" strokeWidth="10.0" />
+            <Line fx:id="lArm" endX="69.0" endY="22.0" layoutX="225.0" layoutY="374.0" startX="-2.0" startY="63.0" strokeWidth="10.0" />
+            <Label fx:id="lEye" layoutX="266.0" layoutY="269.0" text="X" textFill="#f80a0a">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="rEye" layoutX="310.0" layoutY="269.0" text="X" textFill="#f80a0a">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="mouth" layoutX="297.0" layoutY="316.0" prefHeight="55.0" prefWidth="12.0" rotate="90.0" text="(" textFill="#f80a0a">
+               <font>
+                  <Font size="38.0" />
+               </font>
+            </Label>
+            <Label fx:id="charOne" layoutX="596.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label fx:id="charTwo" layoutX="634.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label fx:id="charThree" layoutX="672.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label fx:id="charFour" layoutX="710.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label fx:id="charFive" layoutX="748.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label fx:id="charSix" layoutX="786.0" layoutY="408.0" prefHeight="104.0" prefWidth="38.0" text="L" textAlignment="RIGHT">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
