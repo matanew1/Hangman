@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextField fx:id="textFieldChar" layoutX="30.0" layoutY="569.0" prefHeight="77.0" prefWidth="104.0" text="a">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lblChar" layoutX="30.0" layoutY="537.0" prefHeight="32.0" prefWidth="104.0" text="Enter char" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnChar" layoutX="56.0" layoutY="650.0" mnemonicParsing="false" onAction="#enteredChar" text="Button" />
+      <Label fx:id="charZero" alignment="CENTER" layoutX="503.0" layoutY="408.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circleHead" layoutX="308.0" layoutY="325.0" radius="59.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="body" endY="51.0" layoutX="308.0" layoutY="409.0" startY="-25.0" strokeWidth="10.0" />
+      <Line fx:id="lLeg" endX="-40.0" endY="50.0" layoutX="306.0" layoutY="487.0" startY="-25.0" strokeWidth="10.0" />
+      <Line fx:id="rLeg" endX="43.0" endY="49.0" layoutX="310.0" layoutY="488.0" startY="-25.0" strokeWidth="10.0" />
+      <Line fx:id="rArm" endX="69.0" endY="22.0" layoutX="310.0" layoutY="430.0" startY="-25.0" strokeWidth="10.0" />
+      <Line fx:id="lArm" endX="69.0" endY="22.0" layoutX="235.0" layoutY="384.0" startX="-2.0" startY="63.0" strokeWidth="10.0" />
+      <Label fx:id="lEye" layoutX="276.0" layoutY="279.0" text="X" textFill="#f80a0a">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="rEye" layoutX="320.0" layoutY="279.0" text="X" textFill="#f80a0a">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="mouth" layoutX="307.0" layoutY="326.0" prefHeight="55.0" prefWidth="12.0" rotate="90.0" text="(" textFill="#f80a0a">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="charOne" alignment="CENTER" layoutX="557.0" layoutY="408.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="charTwo" alignment="CENTER" layoutX="612.0" layoutY="408.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="charThree" alignment="CENTER" layoutX="664.0" layoutY="408.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="charFour" alignment="CENTER" layoutX="716.0" layoutY="407.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="charFive" alignment="CENTER" layoutX="770.0" layoutY="408.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="charSix" alignment="CENTER" layoutX="822.0" layoutY="408.0" prefHeight="104.0" prefWidth="52.0" text="m" textAlignment="RIGHT">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <Label fx:id="charA" alignment="CENTER" layoutX="36.0" layoutY="14.0" text="A" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charB" alignment="CENTER" layoutX="104.0" layoutY="14.0" text="B" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charC" alignment="CENTER" layoutX="162.0" layoutY="14.0" text="C" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charD" alignment="CENTER" layoutX="224.0" layoutY="14.0" text="D" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charE" alignment="CENTER" layoutX="290.0" layoutY="14.0" text="E" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charF" alignment="CENTER" layoutX="345.0" layoutY="14.0" text="F" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charG" alignment="CENTER" layoutX="389.0" layoutY="13.0" text="G" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charH" alignment="CENTER" layoutX="455.0" layoutY="14.0" text="H" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charI" alignment="CENTER" layoutX="538.0" layoutY="14.0" text="I" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charJ" alignment="CENTER" layoutX="601.0" layoutY="14.0" text="J" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charK" alignment="CENTER" layoutX="654.0" layoutY="14.0" text="K" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charL" alignment="CENTER" layoutX="713.0" layoutY="14.0" text="L" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charM" alignment="CENTER" layoutX="762.0" layoutY="14.0" text="M" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charN" alignment="CENTER" layoutX="33.0" layoutY="95.0" text="N" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charO" alignment="CENTER" layoutX="99.0" layoutY="96.0" text="O" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charP" alignment="CENTER" layoutX="167.0" layoutY="96.0" text="P" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charQ" alignment="CENTER" layoutX="222.0" layoutY="95.0" text="Q" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charR" alignment="CENTER" layoutX="292.0" layoutY="98.0" text="R" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charS" alignment="CENTER" layoutX="345.0" layoutY="97.0" text="S" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charT" alignment="CENTER" layoutX="398.0" layoutY="98.0" text="T" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charU" alignment="CENTER" layoutX="456.0" layoutY="98.0" text="U" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charV" alignment="CENTER" layoutX="515.0" layoutY="98.0" text="V" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charW" alignment="CENTER" layoutX="573.0" layoutY="98.0" text="W" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charX" alignment="CENTER" layoutX="657.0" layoutY="98.0" text="X" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charY" alignment="CENTER" layoutX="717.0" layoutY="98.0" text="Y" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+      <Label fx:id="charZ" alignment="CENTER" layoutX="775.0" layoutY="98.0" text="Z" textAlignment="RIGHT">
+         <font>
+            <Font size="86.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
